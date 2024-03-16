@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en-us" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <title>Lider Apolo - Servicios de limpieza de establecimientos</title>
+    <meta charset="UTF-8">
+    <meta name="description"
+          content="Servicios profesionales de limpieza de oficinas, fábricas, condominios, notarías,
+	clínicas, gimnasios, galerías, centros comerciales, spa's, hospitales, instituciones educativas, entre otros.">
+    <meta name="keywords"
+          content="limpieza, servicio de limpieza, limpieza profesional, cleaning"/>
+    <meta http-equiv="Content-Type" content="text/html; ISO-8859-1">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="David Dávila Castro"/>
+    <meta name="copyright" content="Lider Apolo"/>
+    <meta name="robots" content="index"/>
+
+    <link rel="shortcut icon" href="img/logo_lider.jpg">
+    <link rel="stylesheet" href="css/core-style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/opensans.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+          crossorigin="anonymous">
+</head>
+
+<body>
+<div id="preloader">
+    <div class="classy-load"></div>
+</div>
+
+<!-- ***** Header Area Start ***** -->
+<header class="header_area business_startup transparent-menu">
+    <div class="main_header_area animated">
+        <div class="container">
+            <nav id="navigation1" class="navigation bg-transparent">
+                <!-- Logo Area -->
+                <div class="nav-header">
+                    <div class="nav-toggle"></div>
+                </div>
+                <!-- Main Menus Wrapper -->
+                <div class="nav-menus-wrapper">
+                    <ul class="nav-menu align-to-left" id="nav">
+                        <li class="active"><a href="#home">Inicio</a></li>
+                        <li><a href="#nosotros">Nosotros</a></li>
+                        <li><a href="#experiencia">Experiencia</a></li>
+                        <li><a href="#servicios">Servicios</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+</header>
+<!-- ***** Header Area End ***** -->
+
+<!-- ***** Welcome Area Start ***** -->
+<section
+        class="welcome_area full_height business_startup background-overlay"
+        id="home" style="background-image: url(img/banner_main.jpeg)">
+    <div class="container h-100">
+        <div class="row h-100 align-items-center">
+            <div class="col-12">
+                <div class="business_startup_wc_text text-left"
+                     style="margin-top: 0px; margin-left: 0">
+                    <div style="display: flex; margin-bottom: 10px">
+                        <h3 style="color: white; margin-top: 78px; margin-left: 0;">BIENVENID@S
+                            A LIDER APOLO </h3>
+                        <img alt="Logo" src="img/logo_lider.jpg"
+                             style="width: 60px; border-radius: 10px; margin: 60px 0 0 13px; height: 62.5px">
+                    </div>
+                    <p class="raleway-fonts"
+                       style="margin-left: 0; margin-bottom: 10px; color: white">
+                        Brindamos servicios integrales de mantenimiento y
+                        limpieza de establecimientos, así como también, servicios de Guardianía. Ofrecemos eficacia,
+                        garantía y seguridad.
+                    </p>
+                    <br/>
+                    <audio src="audio/empire.mp3" controls="controls" id="myAudio" autoplay="autoplay" loop="loop" 
+                        style="opacity: 0.8; display: none;" preload="auto"></audio>
+                    <button id="playButton" style="width: 50px; height: 50px; opacity: 0.8; border-radius: 20px;">▶
+                    </button>
+                    <button id="pauseButton" style="width: 50px; height: 50px; opacity: 0.8; border-radius: 20px;">⏸
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ***** Welcome Area End ***** -->
+
+<section
+        class="startup_features_area business_startup section_padding_100_70"
+        style="background: linear-gradient(0deg, rgba(0, 27, 27, 1) 0%, rgba(19, 56, 122, 1) 100%);"
+        id="nosotros">
+    <div class="container">
+        <div class="row">
+            <!-- Section Heading Start -->
+            <div class="col-12">
+                <div class="section_heading">
+                    <h3 style="font-weight: bold; color: white">Sobre Nosotros</h3>
+                    <p style="color: white">En Lider Apolo, prestamos
+                        un servicio integral de mantenimiento y limpieza de
+                        establecimientos. <br>Éste engloba todas las labores
+                        necesarias para la conservación, protección y mantenimiento de
+                        los espacios de trabajo. <br>Brindamos un servicio acorde a las
+                        necesidades de cada entidad. <br>
+                        Asimismo, prestamos un servicio profesional de Guardianía, para el resguardo y traslado seguro
+                        de personas.</p>
+
+                </div>
+            </div>
+            <!-- Single Awesome Feature Area -->
+            <div class="col-12 col-md-4">
+                <div class="single_feature_area">
+                    <i class="ion-ribbon-b" style="color: #3498db;"></i>
+                    <h4 style="font-weight: bold; color: white">Garantía</h4>
+                    <p style="color: white">Más de 11 años prestando el servicio
+                        de mantenimiento y limpieza acorde a lineamientos sanitarios.</p>
+                </div>
+            </div>
+            <!-- Single Awesome Feature Area -->
+            <div class="col-12 col-md-4">
+                <div class="single_feature_area">
+                    <i class="ion-ios-timer" style="color: #3498db;"></i>
+                    <h4 style="font-weight: bold; color: white">Eficiencia</h4>
+                    <p style="color: white">Personal capacitado frecuentemente en
+                        buenas prácticas de limpieza y en el uso de maquinaria y materiales
+                        convenientes.</p>
+                </div>
+            </div>
+            <!-- Single Awesome Feature Area -->
+            <div class="col-12 col-md-4">
+                <div class="single_feature_area">
+                    <i class="ion-ios-checkmark" style="color: #3498db"></i>
+                    <h4 style="font-weight: bold; color: white">Calidad</h4>
+                    <p style="color: white">Mantenimiento y limpieza
+                        a detalle que garantizan óptimas condiciones sanitarias en los
+                        establecimientos.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ***** Our Services Area Start ***** -->
+<section
+        class="what_we_do_area business_startup section_padding_100_70"
+        id="experiencia"
+        style="background: linear-gradient(0deg, rgba(0, 27, 27, 1) 0%, rgba(19, 56, 122, 1) 100%);">
+    <div class="container">
+        <div class="row">
+            <!-- Section Heading Start -->
+            <div class="col-12">
+                <div class="section_heading white text-center">
+                    <h3 style="font-weight: bold">
+                        <center>Nuestra Experiencia</center>
+                    </h3>
+                    <p>
+                        Llevamos más de 11 años brindando el servicio de mantenimiento y limpieza a
+                        establecimientos de distintos sectores como <b style="text-shadow: 1px 1px 1px black">&nbsp;Oficinas,&nbsp;
+                        Fábricas,&nbsp; Condominios,&nbsp; Notarías,&nbsp;
+                        Clínicas,&nbsp; Gimnasios,&nbsp; Galerías,&nbsp; Centros
+                        Comerciales,&nbsp; Spa's,&nbsp; Hospitales,&nbsp; Instituciones
+                        Educativas,&nbsp;</b> entre otros.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <!-- Single Service Area Start -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="single_service"
+                     style="background: linear-gradient(0deg, rgba(66, 174, 175, 1) 0%, rgba(19, 56, 122, 1) 100%);">
+                    <div class="classy-table">
+                        <div class="classy-table-cell text-center">
+                            <!-- Single Service title -->
+                            <div class="single_service_title">
+                                <h4>Óptimo</h4>
+                            </div>
+                            <!-- Single Service content -->
+                            <div class="single_service_content">
+                                <p>Determinamos las necesidades específicas de cada
+                                    establecimiento, para ejecutar un servicio eficiente de
+                                    limpieza.</p>
+                            </div>
+                            <div class="learn_more">
+                                <a class="btn btn-primary btn-pill btn-sm m-top-15"
+                                   style="background-color: #3498db; border: #3498db"> <i
+                                        class="ion-android-settings"
+                                        style="color: white; font-size: 25px"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Single Service Area Start -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="single_service"
+                     style="background: linear-gradient(0deg, rgba(66, 174, 175, 1) 0%, rgba(19, 56, 122, 1) 100%);">
+                    <div class="classy-table">
+                        <div class="classy-table-cell text-center">
+                            <!-- Single Service title -->
+                            <div class="single_service_title">
+                                <h4>A Detalle</h4>
+                            </div>
+                            <!-- Single Service content -->
+                            <div class="single_service_content">
+                                <p>Mantenimiento de las áreas operativas, consiguiendo
+                                    espacios aseados y en óptimas condiciones sanitarias para sus
+                                    habitantes.</p>
+                            </div>
+                            <div class="learn_more">
+                                <a class="btn btn-primary btn-pill btn-sm m-top-15"
+                                   style="background-color: #3498db; border: #3498db"> <i
+                                        class="ion-waterdrop" style="color: white; font-size: 25px"></i></a></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Single Service Area Start -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="single_service"
+                     style="background: linear-gradient(0deg, rgba(66, 174, 175, 1) 0%, rgba(19, 56, 122, 1) 100%);">
+                    <div class="classy-table">
+                        <div class="classy-table-cell text-center">
+                            <!-- Single Service title -->
+                            <div class="single_service_title">
+                                <h4>Salubridad</h4>
+                            </div>
+                            <!-- Single Service content -->
+                            <div class="single_service_content">
+                                <p>Nos encargamos de mantener las áreas desinfectadas,
+                                    limpias, y en el grado de salubridad que cada establecimiento
+                                    requiere.</p>
+                            </div>
+                            <div class="learn_more">
+                                <a class="btn btn-primary btn-pill btn-sm m-top-15"
+                                   style="background-color: #3498db; border: #3498db"> <i
+                                        class=ion-person-stalker style="color: white; font-size: 25px"></i></a></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!-- ***** Our Services Area End ***** -->
+
+<!-- ***** Project area start ***** section_padding_100_0 -->
+<section class="gallery_area business_startup  clearfix"
+         style="background: linear-gradient(0deg, rgba(0, 27, 27, 1) 0%, rgba(19, 56, 122, 1) 100%);"
+         id="servicios">
+    <div class="container">
+        <div class="row">
+            <!-- Section Heading Start -->
+            <div class="col-12">
+                <div style="padding-top: 60px; padding-bottom: 30px">
+                    <center>
+                        <h3 style="font-weight: bold; color: white">Nuestros
+                            Servicios</h3>
+                    </center>
+                    <p style="margin-top: 20px; color: white">
+                        Damos las gracias a Dios y a nuestros colaboradores quienes día a
+                        día vienen ejerciendo un buen trabajo y manteniendo una buena
+                        imagen. En Lider Apolo, brindamos un servicio integral
+                        de mantenimiento y limpieza para el buen aspecto y funcionamiento de
+                        cada establecimiento. Asimismo, prestamos un servicio profesional de <font
+                            style="color: #3498db; font-weight: bold">Guardianía.</font>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="gallery_full_width_images_area clearfix"
+         style="background: radial-gradient(circle, rgba(21, 67, 129, 1) 0%, rgba(21, 67, 129, 1) 50%, rgba(0, 40, 81, 1) 100%)">
+        <!-- Single gallery Item Start -->
+        <div class="single_gallery_item app wow fadeInUp">
+            <img src="img/limpieza_salones.jpeg" alt="" style="height: 225px; object-fit: cover">
+            <!-- Hover Effect -->
+            <div class="hover_overlay">
+                <div class="classy-table">
+                    <div class="classy-table-cell">
+                        <div class="gallery_info">
+                            <h6>Limpieza de salones</h6>
+                        </div>
+                        <div class="more_details text-center">
+                            <a class="gallery_img" href="img/limpieza_salones.jpeg"><i
+                                    class="pe-7s-search"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Single gallery Item Start -->
+        <div class="single_gallery_item wow bra fadeInUp">
+            <img src="img/limpieza_planta_industrial.jpeg" alt="" style="height: 225px; object-fit: cover">
+            <!-- Hover Effect -->
+            <div class="hover_overlay">
+                <div class="classy-table">
+                    <div class="classy-table-cell">
+                        <div class="gallery_info">
+                            <h6>Limpieza de plantas industriales</h6>
+                        </div>
+                        <div class="more_details text-center">
+                            <a class="gallery_img" href="img/limpieza_planta_industrial.jpeg"><i
+                                    class="pe-7s-search"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Single gallery Item Start -->
+        <div class="single_gallery_item wow art fadeInUp">
+            <img src="img/limpieza_almacen.jpeg" alt="" style="height: 225px; object-fit: cover">
+            <!-- Hover Effect -->
+            <div class="hover_overlay">
+                <div class="classy-table">
+                    <div class="classy-table-cell">
+                        <div class="gallery_info">
+                            <h6>Limpieza de almacenes</h6>
+                        </div>
+                        <div class="more_details text-center">
+                            <a class="gallery_img" href="img/limpieza_almacen.jpeg"><i
+                                    class="pe-7s-search"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Single gallery Item Start -->
+        <div class="single_gallery_item bra wow fadeInUp">
+            <img src="img/limpieza_colegios.jpeg" alt="" style="height: 225px; object-fit: cover">
+            <!-- Hover Effect -->
+            <div class="hover_overlay">
+                <div class="classy-table">
+                    <div class="classy-table-cell">
+                        <div class="gallery_info">
+                            <h6>Limpieza y desinfección de colegios</h6>
+                        </div>
+                        <div class="more_details text-center">
+                            <a class="gallery_img" href="img/limpieza_colegios.jpeg"><i
+                                    class="pe-7s-search"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Single gallery Item Start -->
+        <div class="single_gallery_item art wow fadeInUp">
+            <img src="img/limpieza_hospital.jpeg" alt="" style="height: 225px; object-fit: cover">
+            <!-- Hover Effect -->
+            <div class="hover_overlay">
+                <div class="classy-table">
+                    <div class="classy-table-cell">
+                        <div class="gallery_info">
+                            <h6>Limpieza y desinfección hospitalaria</h6>
+                        </div>
+                        <div class="more_details text-center">
+                            <a class="gallery_img" href="img/limpieza_hospital.jpeg"><i
+                                    class="pe-7s-search"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Single gallery Item Start -->
+        <div class="single_gallery_item art wow fadeInUp">
+            <img src="img/limpieza_restaurantes.jpeg" alt="" style="height: 225px; object-fit: cover">
+            <!-- Hover Effect -->
+            <div class="hover_overlay">
+                <div class="classy-table">
+                    <div class="classy-table-cell">
+                        <div class="gallery_info">
+                            <h6>Limpieza de restaurantes y bares</h6>
+                        </div>
+                        <div class="more_details text-center">
+                            <a class="gallery_img" href="img/limpieza_restaurantes.jpeg"><i
+                                    class="pe-7s-search"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Single gallery Item Start -->
+        <div class="single_gallery_item web wow fadeInUp">
+            <img src="img/limpieza_edificios.jpeg" alt="" style="height: 225px; object-fit: cover">
+            <!-- Hover Effect -->
+            <div class="hover_overlay">
+                <div class="classy-table">
+                    <div class="classy-table-cell">
+                        <div class="gallery_info">
+                            <h6>Limpieza y mantenimiento de edificios</h6>
+                        </div>
+                        <div class="more_details text-center">
+                            <a class="gallery_img" href="img/limpieza_edificios.jpeg"><i
+                                    class="pe-7s-search"></i></a></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Single gallery Item Start -->
+        <div class="single_gallery_item bra wow fadeInUp">
+            <img src="img/limpieza_sshh.jpeg" alt="" style="height: 225px; object-fit: cover">
+            <!-- Hover Effect -->
+            <div class="hover_overlay">
+                <div class="classy-table">
+                    <div class="classy-table-cell">
+                        <div class="gallery_info">
+                            <h6>Limpieza de servicios higiénicos</h6>
+                        </div>
+                        <div class="more_details text-center">
+                            <a class="gallery_img" href="img/limpieza_sshh.jpeg"><i
+                                    class="pe-7s-search"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Single gallery Item Start -->
+        <div class="single_gallery_item bra wow fadeInUp">
+            <img src="img/limpieza_planta_manufactura.jpeg" alt="" style="height: 225px; object-fit: cover">
+            <!-- Hover Effect -->
+            <div class="hover_overlay">
+                <div class="classy-table">
+                    <div class="classy-table-cell">
+                        <div class="gallery_info">
+                            <h6>Limpieza de plantas de manufactura</h6>
+                        </div>
+                        <div class="more_details text-center">
+                            <a class="gallery_img" href="img/limpieza_planta_manufactura.jpeg"><i
+                                    class="pe-7s-search"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Single gallery Item Start -->
+        <div class="single_gallery_item bra wow fadeInUp">
+            <img src="img/limpieza_convencional.jpg" alt="" style="height: 225px; object-fit: cover">
+            <!-- Hover Effect -->
+            <div class="hover_overlay">
+                <div class="classy-table">
+                    <div class="classy-table-cell">
+                        <div class="gallery_info">
+                            <h6>Limpieza convencional</h6>
+                        </div>
+                        <div class="more_details text-center">
+                            <a class="gallery_img" href="img/limpieza_convencional.jpg"><i
+                                    class="pe-7s-search"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Single gallery Item Start -->
+        <div class="single_gallery_item bra wow fadeInUp">
+            <img src="img/servicio_resguardo.jpg" alt="" style="height: 225px; object-fit: cover">
+            <!-- Hover Effect -->
+            <div class="hover_overlay">
+                <div class="classy-table">
+                    <div class="classy-table-cell">
+                        <div class="gallery_info">
+                            <h6>Servicio de resguardo</h6>
+                        </div>
+                        <div class="more_details text-center">
+                            <a class="gallery_img" href="img/servicio_resguardo.jpg"><i
+                                    class="pe-7s-search"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Single gallery Item Start -->
+        <div class="single_gallery_item bra wow fadeInUp">
+            <img src="img/servicio_guardiania.jpg" alt="" style="height: 225px; object-fit: cover">
+            <!-- Hover Effect -->
+            <div class="hover_overlay">
+                <div class="classy-table">
+                    <div class="classy-table-cell">
+                        <div class="gallery_info">
+                            <h6>Servicio de guardianía</h6>
+                        </div>
+                        <div class="more_details text-center">
+                            <a class="gallery_img" href="img/servicio_guardiania.jpg"><i
+                                    class="pe-7s-search"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</section>
+<!-- ***** Project area end ***** -->
+
+<!-- ***** CTA Area Start ***** -->
+<section class="cta_area business_startup section_padding_50">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="cta_text text-center">
+                    <h2>Nuestra Cultura</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ***** CTA Area End ***** -->
+
+<section
+        class="special_feature_area agency_version bg-flat-midnightblack section_padding_100_70"
+        style="background: linear-gradient(0deg, rgba(0, 27, 27, 1) 0%, rgba(19, 56, 122, 1) 100%);">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-12 col-sm-6 col-md-4">
+                <!-- Single Feature Area Start -->
+                <div class="single_feature wow fadeInUp" data-wow-delay=".2s">
+                    <div class="feature_img">
+                        <i class="fa fa-check-square-o" aria-hidden="true"
+                           style="color: #3498db"></i>
+                    </div>
+                    <!-- Single Feature Image Area End -->
+                    <div class="feature_text">
+                        <h4>Misión</h4>
+                        <p>"Mejorar la productividad y salubridad de las
+                            organizaciones a través del mantenimiento y la limpieza integral
+                            de sus espacios de trabajo, con el objetivo de preservar la
+                            seguridad y el bienestar de sus colaboradores".</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4">
+                <!-- Single Feature Area Start -->
+                <div class="single_feature wow fadeInUp" data-wow-delay=".4s">
+                    <div class="feature_img">
+                        <i class="fa fa-trophy" aria-hidden="true" style="color: #3498db"></i>
+                    </div>
+                    <!-- Single Feature Image Area End -->
+                    <div class="feature_text">
+                        <h4>Visión</h4>
+                        <p>"Ser el mejor socio estratégico para las organizaciones en
+                            el Perú gracias al nivel de excelencia prestado en nuestros
+                            servicios de mantenimiento y limpieza".</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4">
+                <!-- Single Feature Area Start -->
+                <div class="single_feature wow fadeInUp" data-wow-delay=".6s">
+                    <div class="feature_img">
+                        <i class="fa fa-users" aria-hidden="true" style="color: #3498db"></i>
+                    </div>
+                    <!-- Single Feature Image Area End -->
+                    <div class="feature_text">
+                        <h4>Nuestros Valores</h4>
+                        <ul>
+                            <li>Compromiso</li>
+                            <li>Honestidad</li>
+                            <li>Puntualidad</li>
+                            <li>Responsabilidad</li>
+                            <li>Lealtad</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ***** Special Feature Area End ***** -->
+
+<!-- ***** CTA Area Start ***** -->
+<section class="cta_area business_startup section_padding_50">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="cta_text text-center">
+                    <h2>Confían en nuestra experiencia</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ***** CTA Area End ***** -->
+
+<!-- ***** Clients Slideshow ***** -->
+
+<div class="about-clients-area section_padding_100">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <!-- Clients Area -->
+                <div class="clients_area clients-slideshow" style="justify-content: space-around; align-items: center;">
+                    <img src="img/praxis.png" title="Praxis Comercial" style="object-fit: cover; width: 70%; height: 70%">
+                    <img src="img/urteaga2.png" title="Notaria Jose Urteaga Calderón" style="object-fit: cover; width: 70%; height: 70%">
+                    <img src="img/sobrevilla.png" title="Notaria Igor Sobrevilla Donayre" style="object-fit: cover; width: 70%; height: 70%">
+                    <img src="img/soho.png" title="Soho Color" style="object-fit: cover; width: 70%; height: 70%">
+                    <img src="img/monteluz.png" title="Clínica Monteluz" style="object-fit: cover; width: 70%; height: 70%">
+                    <img src="img/altovzla.png" title="Condominio Alto Venezuela" style="object-fit: cover; width: 70%; height: 70%">
+                    <img src="img/lap.jpg" title="Latin America Power" style="object-fit: cover; width: 70%; height: 70%">
+                    <img src="img/electroenchufe.png" title="Electro Enchufe" style="object-fit: cover; width: 70%; height: 70%">
+                    <img src="img/maxtech.png" title="Maxtech Perú" style="object-fit: cover; width: 70%; height: 70%">
+                    <img src="img/montalvo.jpg" title="Montalvo Spa" style="object-fit: cover; width: 70%; height: 70%">
+                    <img src="img/marina.png" title="Marina Mora Spa" style="object-fit: cover; width: 70%; height: 70%">
+                    <img src="img/addiuva.png" title="Addiuva Perú" style="object-fit: cover; width: 70%; height: 70%">
+                    <img src="img/rinconcito.jpg" title="El Rinconcito Arequipeño" style="object-fit: cover; width: 70%; height: 70%">
+                    <img src="img/peppers.jpg" title="Pepper's Chicken" style="object-fit: cover; width: 70%; height: 70%">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ***** Message Now Area Start ***** -->
+<section class="message_now_area business_startup section_padding_100_70"
+        style="background: linear-gradient(0deg, rgba(0, 27, 27, 1) 0%, rgba(19, 56, 122, 1) 100%);" id="contacto">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-8">
+                <div class="section_heading text-left">
+                    <h5 style="font-weight: bold; color: white">Contacto de servicios para Empresas</h5>
+
+                    <div class="social_links_area">
+                        <a href="mailto:liderserviciosespeciales@gmail.com.com?Subject=Interesado%20en%20los%20servicios%20de%20Lider%20Apolo"
+                           target="_blank">
+                            <i class="ion-android-mail" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+
+                <div class="section_heading text-left">
+                    <h5 style="font-weight: bold; color: white">Contacto para Postulantes</h5>
+
+                    <div class="social_links_area">
+                        <a href="mailto:josemorenofavian@gmail.com.com?Subject=Interesado%20en%20postular%20a%20Lider%20Apolo"
+                           target="_blank">
+                            <i class="ion-android-mail" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ***** Message Now Area Start ***** -->
+
+<!-- ***** Footer Area Start ***** -->
+<footer class="footer_area business_startup">
+    <!-- Bottom Footer Copywrite Text Area -->
+    <div class="footer_bottom"
+         style="background: radial-gradient(circle, rgba(21, 67, 129, 1) 0%, rgba(21, 67, 129, 1) 50%, rgba(0, 40, 81, 1) 100%)">
+        <p style="color: white">Copyright © 2024</p>
+    </div>
+</footer>
+<!-- ***** Footer Area End ***** -->
+
+<!-- ***** All jQuery Plugins ***** -->
+<script src="js/jquery-2.2.4.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/include-all-plugins.js"></script>
+<script src="js/active.js"></script>
+
+<script>
+    window.onload = function() {
+            var context = new AudioContext();
+    }
+    var audio = document.getElementById("myAudio");
+    var playButton = document.getElementById("playButton");
+    var pauseButton = document.getElementById("pauseButton");
+
+    playButton.addEventListener("click", function() {
+      audio.play();
+    });
+    pauseButton.addEventListener("click", function() {
+      audio.pause();
+    });
+</script>
+</body>
+</html>
